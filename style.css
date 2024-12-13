@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc;
+   
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f4f8fc;
+}
+
+nav ul li a {
+    color: #f4f4f9;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00d4ff;
+}
+
+
+header.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff6f61;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff3b28;
+}
+
+
+.uvod, .klubovi, .omiljene-utakmice {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.uvod h2, .klubovi h2, .omiljene-utakmice h2 {
+    font-size: 2em;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.klubovi, .omiljene-utakmice {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    max-width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.4em;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a2e;
+    color: #f4f4f9;
+    font-size: 1em;
+    width: 100%;
+    margin-top: auto;
+}

@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1a1a2e;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f4f8fc;
+ 
+}
+nav ul li a:hover {
+    color: #00d4ff;
+}
+
+
+header {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #1a1a2e;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+
+.kontakt-forma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    min-width: 30%;
+}
+
+.kontakt-forma form {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.kontakt-forma label {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.kontakt-forma input,
+.kontakt-forma textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+ 
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.kontakt-forma input:focus,
+.kontakt-forma textarea:focus {
+    border-color: #1a1a2e;
+    outline: none;
+}
+
+.kontakt-forma textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.kontakt-forma button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.kontakt-forma button:hover {
+    background-color: #00d4ff;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a2e;
+    color: #f4f4f9;
+    font-size: 1em;
+    width: 100%;
+    margin-top: auto;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omiljeni Igrači - Kerim Cibo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="igraci-style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            border: 1px solid #ddd;
+        }
+
+        .card-body {
+            flex-grow: 1; 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-img-top {
+            object-fit: cover; 
+            height: 250px; 
+        }
+
+       
+        .igraci-kartice .col-md-4 {
+            display: flex;
+            justify-content: stretch;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div >
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Početna</a></li>
+                        <li class="nav-item"><a class="nav-link" href="igraci.html">Omiljeni Igrači</a></li>
+                        <li class="nav-item"><a class="nav-link" href="historija.html">Historija Fudbala</a></li>
+                        <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+
+
+    <header class="hero bg-primary text-white text-center py-5">
+        <h1 class="display-4">Omiljeni Fudbaleri</h1>
+        <p class="lead">Pratite legende koje su obilježile svijet fudbala.</p>
+    </header>
+
+   
+    <section class="igraci-kartice py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="slike/messi.webp" class="card-img-top" alt="Lionel Messi">
+                        <div class="card-body">
+                            <h3 class="card-title">Lionel Messi</h3>
+                            <p class="card-text">Jedan od najboljih igrača svih vremena, poznat po svojim driblinzima i sjajnom završnom udarcu.</p>
+                        </div>
+                    </div>
+                </div>
+
+           
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="slike/ronaldo.jpg" class="card-img-top" alt="Cristiano Ronaldo">
+                        <div class="card-body">
+                            <h3 class="card-title">Cristiano Ronaldo</h3>
+                            <p class="card-text">Legendarni igrač poznat po svojoj fizičkoj spremi i sposobnosti postizanja golova sa različitih pozicija.</p>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="slike/maradona.jpg" class="card-img-top" alt="Diego Maradona">
+                        <div class="card-body">
+                            <h3 class="card-title">Diego Maradona</h3>
+                            <p class="card-text">Argentinska legenda, poznata po svom vođenju lopte i nezaboravnom golu "Božja ruka".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="slike/pele.jpg" class="card-img-top" alt="Pele">
+                        <div class="card-body">
+                            <h3 class="card-title">Pele</h3>
+                            <p class="card-text">Brazilac poznat po svojoj brzini i tehničkoj vještini. Pele je trostruki osvajač Svjetskog prvenstva.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="slike/zidane.jpg" class="card-img-top" alt="Zinedine Zidane">
+                        <div class="card-body">
+                            <h3 class="card-title">Zinedine Zidane</h3>
+                            <p class="card-text">Francuski maestro sredine terena, poznat po svojoj tehnici i viziji igre.</p>
+                        </div>
+                    </div>
+                </div>
+
+          
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="slike/ronaldinho.jpg" class="card-img-top" alt="Ronaldinho">
+                        <div class="card-body">
+                            <h3 class="card-title">Ronaldinho</h3>
+                            <p class="card-text">Čarobnjak s loptom koji je zabavljao navijače svojim trikovima i osmijehom.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="slike/cruyff.webp" class="card-img-top" alt="Johan Cruyff">
+                        <div class="card-body">
+                            <h3 class="card-title">Johan Cruyff</h3>
+                            <p class="card-text">Holandski inovator i jedan od osnivača "totalnog fudbala".</p>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="slike/baggio.jpg" class="card-img-top" alt="Roberto Baggio">
+                        <div class="card-body">
+                            <h3 class="card-title">Roberto Baggio</h3>
+                            <p class="card-text">Italijanska ikona poznata po svojoj eleganciji i preciznosti u postizanju golova.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <footer class="bg-light text-black text-center py-3">
+        <p>&copy; 2024 Kerim Cibo - Fudbal i Strast</p>
+    </footer>
+
+  
+</body>
+</html>
